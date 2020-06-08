@@ -1,0 +1,40 @@
+.App {
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+.todoInput {
+  text-align: center;
+}
+
+.todoInput input {
+  width: 280px;
+  margin-right: 20px;
+}
+
+ul.todoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.todoList input {
+  margin-bottom: 10px;
+}
+
+li.todo {
+  margin: 10px 10;
+}
+
+span.todoDone {
+  text-decoration: line-through;
+}
+
+span.todoDelete {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 0px;
+  float: right;
+  cursor: pointer;
+  padding: 3px;
+}
